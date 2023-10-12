@@ -1,20 +1,24 @@
 # Blynk-DoorGarageOpener
 Blynk 2.0
 
-  Introduction
+    Introduction
+    
 This code uses Blynk 2.0 (2023) to control the gates in your home from anywhere.
 It uses Blynk library and virtual pins that controls a relay connected to arduino.
 
 You can use and modify this code as you want to satisfy your needs.
 
-  Goals
+    Goals
+    
 At the end of this guide you will learn how to use blynk dashboard, how to code the Arduino board and how to use the relays for opening from the app the gates.
 
-  Requirements
+    Requirements
+    
 An Arduino Uno 
 Arduino Ethernet Shield 
 Relay board x3
 Arduino IDE
 Blynk dashboard
 
-  Blynk dashboard
+    Blynk dashboard
+    

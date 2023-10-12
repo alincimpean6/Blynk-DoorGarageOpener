@@ -6,6 +6,9 @@ Introduction
 This code uses Blynk 2.0 (2023) to control the gates in your home from anywhere.
 It uses Blynk library and virtual pins that controls a relay connected to arduino.
 
+The motor controller from the garage door should have two pins that accept an external command that will open and close the door.
+Our project will close a circuit for a very short time, creating a short at these pins and the door will know to open or close.
+
 You can use and modify this code as you want to satisfy your needs.
 
 Goals
@@ -29,4 +32,15 @@ Download and install the BLYNK app to your phone and libraries to your PC for Ar
 Step 2:
 
 Create blynk datastreams and create the buttons in the phone app.
+
+Step 3: 
+
+Set-up IDE and Program
+In IDE, open the project downloaded from github.
+In IDE, Copy and Paste the "auth key", "project template" and "device name" from blynk dashboard
+
+In IDE, go to tools - boards - "arduino uno"
+Plug FTDI into computer.
+Pick your COM port in IDE software.
+Load sketch to your arduino.
 

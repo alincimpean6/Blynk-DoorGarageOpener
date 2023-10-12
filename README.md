@@ -20,7 +20,13 @@ Relay board x3
 Arduino IDE
 Blynk dashboard
 
-Step 1: Install Arduino IDE Libraries
+Step 1: 
+
+Install Arduino IDE Libraries
 If you are not familiar with Arduino IDE please start here: [https://www.arduino.cc/en/Guide/HomePage](https://www.arduino.cc/en/Guide)
 Download and install the BLYNK app to your phone and libraries to your PC for Arduino IDE. Tutorial here: [http://www.blynk.cc/getting-started/](https://docs.blynk.io/en/getting-started/what-do-i-need-to-blynk)
-    
+
+Step 2:
+
+Create blynk datastreams and create the buttons in the phone app.
+
